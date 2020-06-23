@@ -23,8 +23,9 @@ Include in your code and begin using the library:
 ## Usage
 
 
+```pawn
 ShowListDialog(playerid, func[], caption[], info[], listitems[], button1[], button2[] = "")
-
+```
 playerid - id of player to show list dialog
 func - function that is executed when the dialog box responds
 caption - dialog caption
@@ -33,9 +34,10 @@ listitems - an array of listitems
 button1 - first button (Yes)
 button2 - second button (No)
 
+
 Example of usage:
 
-
+```pawn
 public OnPlayerConnect(playerid) {
 	new string[256];
 	new addnum;
@@ -59,3 +61,4 @@ LISTDIALOG:TestDialog(playerid, response, value) {
 	SendClientMessage(value, 0x00FF00FF, "Hi!");
 	return 1;
 }
+```
