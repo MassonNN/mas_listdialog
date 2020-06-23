@@ -2,9 +2,9 @@
 
 [![sampctl](https://img.shields.io/badge/sampctl-mas_listdialog-2f2f2f.svg?style=for-the-badge)](https://github.com/MassonNN/mas_listdialog)
 
-<!--
+
 ListDialogs is a simple library for dialogs with lists
--->
+
 
 ## Installation
 
@@ -22,7 +22,7 @@ Include in your code and begin using the library:
 
 ## Usage
 
-<!--
+
 ShowListDialog(playerid, func[], caption[], info[], listitems[], button1[], button2[] = "")
 
 playerid - id of player to show list dialog
@@ -59,19 +59,3 @@ LISTDIALOG:TestDialog(playerid, response, value) {
 	SendClientMessage(value, 0x00FF00FF, "Hi!");
 	return 1;
 }
-
-
--->
-
-## Testing
-
-<!--
-Depending on whether your package is tested via in-game "demo tests" or
-y_testing unit-tests, you should indicate to readers what to expect below here.
--->
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
