@@ -32,11 +32,7 @@
 	#define MAX_LIST_ITEMS	64
 #endif
 
-#if !defined MAX_PLAYERS
-	#define MAX_PLAYERS	500
-#endif
 
-#if !defined 
 
 #define INVALID_LISTITEM	-1
 #define MAX_LIST_FUNC_NAME	24
